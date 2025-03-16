@@ -1,2 +1,2 @@
 # Helper_for_windows
-Repo for Helper
+Репозиторий помощника
