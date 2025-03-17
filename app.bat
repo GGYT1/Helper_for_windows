@@ -300,7 +300,7 @@ if exist "%~1" (
     echo Очистка кэша: %~1
     del /f /s /q "%~1\*" >nul
 )
-goto :eof
+goto menu
 
 :: Очистка кэша для каждого браузера
 call :ClearCache "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Cache"
